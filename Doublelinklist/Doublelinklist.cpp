@@ -145,3 +145,14 @@ bool listEmpty()
 {
     return (START == NULL);
 }
+
+void traverse()
+{
+    if (listEmpty())
+        cout << "\nList is empty" << endl;
+    else
+    {
+        cout << "\nRecord is ascending order of roll number are:" << endl;
+        
+    }
+}
