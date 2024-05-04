@@ -34,7 +34,20 @@ void addNode() {
             return;
         }
 
-  
+        newNode->next = START;
+        if (START != NULL) {
+            START->prev = newNode;
+        }
+        newNode->prev = NULL;
+        START = newNode;
+    }
+}
+
+int main()
+{
+    std::cout << "Hello World!\n";
+}
+
 
 
 
