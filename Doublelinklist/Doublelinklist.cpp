@@ -153,6 +153,6 @@ void traverse()
     else
     {
         cout << "\nRecord is ascending order of roll number are:" << endl;
-        
+        Node* currentNode = START;
     }
 }
