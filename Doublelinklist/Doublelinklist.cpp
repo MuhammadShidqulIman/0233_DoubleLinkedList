@@ -68,5 +68,10 @@ void addNode()
         {
             previous->next = newNode;
         }
+        else
+        {
+
+            START = newNode;
+        }
     }
 }
